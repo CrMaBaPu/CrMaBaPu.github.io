@@ -1,6 +1,8 @@
 # Study Design
 
-This study explores the relationship between affective experience and physiological responses during immersive virtual reality (VR) scenarios. The resulting dataset captures multimodal physiological and behavioral data in response to emotionally evocative VR stimuli.
+> [Note !] This chapter was  mainly formulated on information provided by the AVR Porject documentation. 
+
+The resulting dataset captures multimodal physiological and behavioral data in response to emotionally evocative VR stimuli.
 
 ## Overview
 

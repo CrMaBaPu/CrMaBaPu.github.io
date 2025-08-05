@@ -37,10 +37,10 @@ Neural states can be conceptualized as:
 
 ### Neural Manifolds
 
-Despite the high dimensionalityof data, neural activity often lies on **lower-dimensional manifolds**:
+Despite the high dimensionality of neural data, neural activity could lie on **lower-dimensional manifolds**:
 
 This manifold structure arises because:
-- **Correlated activity**: Neural populations often act together
+- **Correlated activity**: Neural populations act together
 - **Functional constraints**: Brain activity serves specific computational purposes
 - **Anatomical connectivity**: Physical connections limit possible activity patterns
 
@@ -51,4 +51,4 @@ The **shared manifold hypothesis** suggests that despite individual differences,
 -**Task-related dynamics**: Shared patterns of state transitions
 -**Cognitive states**: Common modes of brain activity
 
-This theoretical framework provides the foundation for understanding how neural state space analysis can reveal the shared patterns of brain activity across your multi-session EEG recordings, enabling insights into the common cognitive and neural processes that underlie human behavior.
+This theoretical framework provides the foundation for understanding how neural state space analysis can reveal the shared patterns of brain activity across a multi-session EEG recordings, enabling insights into the common cognitive and neural processes that underlie human behavior.

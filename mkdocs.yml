@@ -82,29 +82,24 @@ nav:
   
   - Theoretical Background:
     - Introduction to CEBRA: theory/cebra-introduction.md
-    - CEBRA with EEG data: theory/dimensionality-reduction.md
+    - CEBRA with EEG data: theory/eeg_data.md
     - Neural State Space Analysis: theory/neural-state-space.md
-  
+
   - Dataset:
     - Multi-Subject Design: dataset/multi-subject-design.md
-    - EEG Data Overview: dataset/eeg-overview.md
+    - EEG Data Overview: dataset/data.md
   
   - Methodology:
-    - System Overview: architecture/overview.md
-    - Multisession Dataloading: architecture/data-flow.md
-    - Multisession Model Training: architecture/model-config.md
-    #- Component Interactions: architecture/components.md 
-    #- Batch Processing: implementation/batch-processing.md
-    #- Training Strategy: implementation/training-strategy.md
-    #- Model Optimization: implementation/optimization.md
-    #- Validation Approach: implementation/validation.md
+    - System Overview: methods/overview.md
+    - Inital Exploration: methods/Phase_1.md
+    - Advanced Model: methods/Phase_2.md
   
   - CEBRA Components:
     - Modifications: components/dataset-collection.md
     - TensorDataset Design: components/tensor-dataset.md
-    - MultiSessionLoader Logic: components/multi-session-loader.md
-    - Offset Model Architecture: components/offset-model.md
-    - Multi-Session Solver: components/multi-session-solver.md
+    #- MultiSessionLoader Logic: components/multi-session-loader.md
+    #- Offset Model Architecture: components/offset-model.md
+    #- Multi-Session Solver: components/multi-session-solver.md
   
   - Results & Analysis:
     #- Shared Brain States: results/shared-states.md
@@ -117,16 +112,15 @@ nav:
     - Cognitive Correlates: interpretation/cognitive-correlates.md
     - Task-Related Dynamics: interpretation/task-dynamics.md
     - Individual Differences: interpretation/individual-differences.md
-  
 
-  - Technical Documentation:
-    - Code Structure: technical/code-structure.md
-    - Class Hierarchies: technical/class-hierarchies.md
-    - Data Types: technical/data-types.md
-    - Configuration Options: technical/configuration.md
-    - Environment Setup: reproducibility/environment.md
-    - Data Preparation: reproducibility/data-prep.md
-    - Execution Guide: reproducibility/execution.md
+  # - Technical Documentation:
+  #   - Code Structure: technical/code-structure.md
+  #   - Class Hierarchies: technical/class-hierarchies.md
+  #   - Data Types: technical/data-types.md
+  #   - Configuration Options: technical/configuration.md
+  #   - Environment Setup: reproducibility/environment.md
+  #   - Data Preparation: reproducibility/data-prep.md
+  #   - Execution Guide: reproducibility/execution.md
   
   - Appendices:
     - Bibliography: appendices/bibliography.md
