@@ -105,6 +105,7 @@ nav:
     #- Shared Brain States: results/shared-states.md
     #- State Transitions: results/state-transitions.md
     - Cross-Subject: results/cross-subject.md
+    - Exploration: results/exploration.md
     #- Temporal Patterns: results/temporal-patterns.md
   
   - Biological Interpretation:
