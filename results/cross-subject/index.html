@@ -1131,6 +1131,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#frequency-band-filtering" class="md-nav__link">
+    <span class="md-ellipsis">
+      Frequency band filtering
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#channels-selection" class="md-nav__link">
     <span class="md-ellipsis">
       Channels Selection
@@ -1420,6 +1429,8 @@
 <p>This chapter presents a preliminary analysis of embeddings derived from CEBRA across different subjects and EEG channel configurations. The goal is to understand how neural variability is distributed in latent space and how different preprocessing choices impact the structure of the embeddings. The full interactive results can be viewed by running the dashboard.py script.</p>
 <h2 id="single-subjects-embeddings">single subjects embeddings<a class="headerlink" href="#single-subjects-embeddings" title="Permanent link">&para;</a></h2>
 <p>We first examine the embeddings from all subjects using all available EEG channels on the same snippet of 60s.</p>
+<p>e.g sub 007
+<img alt="alt text" src="../image-3.png" /></p>
 <h3 id="interpreson-differencess">Interpreson differencess<a class="headerlink" href="#interpreson-differencess" title="Permanent link">&para;</a></h3>
 <ul>
 <li>manifold complexity</li>
@@ -1435,9 +1446,16 @@
 <h3 id="colour-gradient-temporal-encoding">Colour Gradient (Temporal Encoding)<a class="headerlink" href="#colour-gradient-temporal-encoding" title="Permanent link">&para;</a></h3>
 <p>The emotional labels, representing different points on the valence-arousal scale, showed extensive intermixing throughout the manifold structure. Rather than forming discrete clusters corresponding to emotional categories, different emotional states occupied overlapping regions within the embedding space.</p>
 <h2 id="single-segments">Single segments<a class="headerlink" href="#single-segments" title="Permanent link">&para;</a></h2>
-<p>no to little effect on the manifold</p>
+<p>no to little effect on the manifold
+e.g sub 007
+<img alt="alt text" src="../image-4.png" /></p>
+<h2 id="frequency-band-filtering">Frequency band filtering<a class="headerlink" href="#frequency-band-filtering" title="Permanent link">&para;</a></h2>
+<p>e.g sub 007
+<img alt="" src="../image-5.png" /></p>
 <h2 id="channels-selection">Channels Selection<a class="headerlink" href="#channels-selection" title="Permanent link">&para;</a></h2>
-<p>Because participants engaged in multiple simultaneous tasks (e.g., monitoring devices, labeling videos), neural activity related to these non-emotional cognitive processes might be mixed into the EEG signal. Removing or selecting specific channels can help filter out neural signals related to attention, motor activity, or other cognitive demands that are not central to the emotional processing we want to isolate. To est if certain brain regions drive specific embedding geometries drive embedding structures, multiple channel subsets were tested.</p>
+<p>Because participants engaged in multiple simultaneous tasks (e.g., monitoring devices, labeling videos), neural activity related to these non-emotional cognitive processes might be mixed into the EEG signal. Removing or selecting specific channels can help filter out neural signals related to attention, motor activity, or other cognitive demands that are not central to the emotional processing we want to isolate. To est if certain brain regions drive specific embedding geometries drive embedding structures, multiple channel subsets were tested.
+e.g sub 007
+<img alt="alt text" src="../image-12.png" /></p>
 <p>restrictions to frontal, central, and parietal EEG channels: 
 - flattened, two-dimensional surface
 - improvement in emotional differentiation</p>
