@@ -15,10 +15,10 @@
         <link rel="canonical" href="https://your-username.github.io/multi-session-eeg-cebra/results/cross-subject/">
       
       
-        <link rel="prev" href="../../components/multi-session-solver/">
+        <link rel="prev" href="../../components/tensor-dataset/">
       
       
-        <link rel="next" href="../../interpretation/neural-mechanisms/">
+        <link rel="next" href="../exploration/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -298,7 +298,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../architecture/overview/" class="md-tabs__link">
+        <a href="../../methods/overview/" class="md-tabs__link">
           
   
   
@@ -365,26 +365,6 @@
   
   
   Biological Interpretation
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../../technical/code-structure/" class="md-tabs__link">
-          
-  
-  
-  Technical Documentation
 
         </a>
       </li>
@@ -632,7 +612,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../theory/dimensionality-reduction/" class="md-nav__link">
+      <a href="../../theory/eeg_data/" class="md-nav__link">
         
   
   
@@ -753,7 +733,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../dataset/eeg-overview/" class="md-nav__link">
+      <a href="../../dataset/data/" class="md-nav__link">
         
   
   
@@ -828,7 +808,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../architecture/overview/" class="md-nav__link">
+      <a href="../../methods/overview/" class="md-nav__link">
         
   
   
@@ -851,12 +831,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../architecture/data-flow/" class="md-nav__link">
+      <a href="../../methods/Phase_1/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Multisession Dataloading
+    Inital Exploration
     
   </span>
   
@@ -874,12 +854,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../architecture/model-config/" class="md-nav__link">
+      <a href="../../methods/Phase_2/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Multisession Model Training
+    Advanced Model
     
   </span>
   
@@ -978,75 +958,6 @@
   
   <span class="md-ellipsis">
     TensorDataset Design
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../components/multi-session-loader/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    MultiSessionLoader Logic
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../components/offset-model/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Offset Model Architecture
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../components/multi-session-solver/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Multi-Session Solver
     
   </span>
   
@@ -1179,18 +1090,18 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#flat-shpere" class="md-nav__link">
+  <a href="#interpreson-differencess" class="md-nav__link">
     <span class="md-ellipsis">
-      Flat Shpere
+      Interpreson differencess
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#elongation" class="md-nav__link">
+  <a href="#round-surface-coils" class="md-nav__link">
     <span class="md-ellipsis">
-      Elongation
+      Round surface &amp; Coils
     </span>
   </a>
   
@@ -1211,44 +1122,20 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#single-segments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Single segments
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#channels-selection" class="md-nav__link">
     <span class="md-ellipsis">
       Channels Selection
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Channels Selection">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#frontal-channels" class="md-nav__link">
-    <span class="md-ellipsis">
-      Frontal Channels
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#frontotemporal-channels" class="md-nav__link">
-    <span class="md-ellipsis">
-      Frontotemporal Channels
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#frontal-parietal-channels" class="md-nav__link">
-    <span class="md-ellipsis">
-      Frontal-Parietal Channels
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1256,6 +1143,29 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../exploration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Exploration
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -1442,7 +1352,7 @@
   
   
   <span class="md-ellipsis">
-    Technical Documentation
+    Appendices
     
   </span>
   
@@ -1452,219 +1362,6 @@
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_8">
-            <span class="md-nav__icon md-icon"></span>
-            Technical Documentation
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../technical/code-structure/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Code Structure
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../technical/class-hierarchies/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Class Hierarchies
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../technical/data-types/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Data Types
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../technical/configuration/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Configuration Options
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../reproducibility/environment/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Environment Setup
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../reproducibility/data-prep/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Data Preparation
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../reproducibility/execution/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Execution Guide
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
-        
-          
-          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    Appendices
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             Appendices
           </label>
@@ -1720,46 +1417,36 @@
 
 
 <h1 id="inital-results">Inital Results<a class="headerlink" href="#inital-results" title="Permanent link">&para;</a></h1>
-<p>This chapter presents a preliminary analysis of embeddings derived from CEBRA across different subjects and EEG channel configurations. The goal is to understand how neural variability is distributed in latent space and how different preprocessing choices impact the structure of the embeddings.</p>
+<p>This chapter presents a preliminary analysis of embeddings derived from CEBRA across different subjects and EEG channel configurations. The goal is to understand how neural variability is distributed in latent space and how different preprocessing choices impact the structure of the embeddings. The full interactive results can be viewed by running the dashboard.py script.</p>
 <h2 id="single-subjects-embeddings">single subjects embeddings<a class="headerlink" href="#single-subjects-embeddings" title="Permanent link">&para;</a></h2>
-<p>We first examine the embeddings from three subjects (e.g sub-001, sub-002, sub-020) using all available EEG channels.</p>
-<p>sub-001 | sub-002 | sub-020 
-<img alt="alt text" src="../image.png" /></p>
-<h3 id="flat-shpere">Flat  Shpere<a class="headerlink" href="#flat-shpere" title="Permanent link">&para;</a></h3>
-<p>The embeddings appear to lie on a curved but largely 2D surface (like a flattened sphere or disc) within 3D space.</p>
-<p>All subjects consistently display a "flat sphere" shape in their embeddings—suggesting the data lie predominantly on a two-dimensional manifold within a three-dimensional space. This geometric constraint implies low intrinsic dimensionality of the neural data: most brain state variability can be captured by two dominant latent factors.</p>
-<h3 id="elongation">Elongation<a class="headerlink" href="#elongation" title="Permanent link">&para;</a></h3>
-<p>Elongation = Variance concentrated along one axis.</p>
-<p>Elongated embeddings (e.g.sub-002) indicate that neural variability is dominated by a single primary latent dimension.</p>
-<p>Rounder embeddings (e.g., sub-020) suggest a more balanced contribution from at least two latent dimensions.</p>
+<p>We first examine the embeddings from all subjects using all available EEG channels on the same snippet of 60s.</p>
+<h3 id="interpreson-differencess">Interpreson differencess<a class="headerlink" href="#interpreson-differencess" title="Permanent link">&para;</a></h3>
+<ul>
+<li>manifold complexity</li>
+<li>manifold compactness (more or less dispersion per line)</li>
+</ul>
+<h3 id="round-surface-coils">Round surface &amp; Coils<a class="headerlink" href="#round-surface-coils" title="Permanent link">&para;</a></h3>
+<p>When utilizing all available EEG channels, CEBRA produced a distinctive crescent curved mainfold structure with:</p>
+<ul>
+<li>holes </li>
+<li>cuttoff regions</li>
+</ul>
+<p>The spreading accross the whole surfacesuggests that each video elicits a wide range of neural states, not just one “emotion point” in the embedding space. Or the integration of signals across multiple brain regions, capturing both emotion-relevant and emotion-irrelevant neural variance.</p>
 <h3 id="colour-gradient-temporal-encoding">Colour Gradient (Temporal Encoding)<a class="headerlink" href="#colour-gradient-temporal-encoding" title="Permanent link">&para;</a></h3>
-<p>A clear color gradient exists in all embeddings—from red (early time points) to blue/purple (later time points). This gradient is radially distributed, with earlier points often clustered toward the center and later ones radiating outward. Two interpretations are considered:</p>
-<ul>
-<li>A technical property of CEBRA: embeddings may be initialized near the origin, then optimized to expand outward.</li>
-<li>participants might show higher focus or engagement early in the task</li>
-</ul>
-<p>Time does not dominate the embeddings—there is no strict linear trajectory. Instead, time is diffusely spread, suggesting that non-temporal neural dynamics (e.g., emotional or cognitive processes) drive the main structure.  </p>
-<p>The even spreading accross the whole planeuggests that each video elicits a wide range of neural states, not just one “emotion point” in the embedding space. The brain state varies a lot within each video. Or, other cognitive factors (e.g., memory, attention, visual input) are interacting with the emotion, creating diverse brain activity.</p>
+<p>The emotional labels, representing different points on the valence-arousal scale, showed extensive intermixing throughout the manifold structure. Rather than forming discrete clusters corresponding to emotional categories, different emotional states occupied overlapping regions within the embedding space.</p>
+<h2 id="single-segments">Single segments<a class="headerlink" href="#single-segments" title="Permanent link">&para;</a></h2>
+<p>no to little effect on the manifold</p>
 <h2 id="channels-selection">Channels Selection<a class="headerlink" href="#channels-selection" title="Permanent link">&para;</a></h2>
-<p>Because participants engaged in multiple simultaneous tasks (e.g., monitoring devices, labeling videos), neural activity related to these non-emotional cognitive processes might be mixed into the EEG signal. Removing or selecting specific channels can help filter out neural signals related to attention, motor activity, or other cognitive demands that are not central to the emotional processing we want to isolate. To est if certain brain regions drive specific embedding geometries drive embedding structures, multiple channel subsets were tested in subject 020. </p>
-<p><img alt="alt text" src="../image-2.png" /></p>
-<p>Across all channel subsets:</p>
+<p>Because participants engaged in multiple simultaneous tasks (e.g., monitoring devices, labeling videos), neural activity related to these non-emotional cognitive processes might be mixed into the EEG signal. Removing or selecting specific channels can help filter out neural signals related to attention, motor activity, or other cognitive demands that are not central to the emotional processing we want to isolate. To est if certain brain regions drive specific embedding geometries drive embedding structures, multiple channel subsets were tested.</p>
+<p>restrictions to frontal, central, and parietal EEG channels: 
+- flattened, two-dimensional surface
+- improvement in emotional differentiation</p>
+<p>Different emotional categories that were previously intermixed became more spatially separated and distinguishable within the simplified manifold structure.</p>
 <ul>
-<li>The flatness and color gradient persist.</li>
-<li>The degree of elongation varies, suggesting some configurations emphasize specific latent dimensions more than others.</li>
+<li>Regional Specificity of Emotional Signals: The clearer emotional differentiation in frontal-central-parietal regions indicates that these brain areas contain more discriminable neural signatures for different emotional states.</li>
 </ul>
-<p>Changes in the geomertry of the embedding suggest that different regions carry different types/amount of intormation about the neural state space</p>
-<h3 id="frontal-channels">Frontal Channels<a class="headerlink" href="#frontal-channels" title="Permanent link">&para;</a></h3>
-<p>Subset: ['Fz', 'F3', 'F4', 'F7', 'F8', 'AF3', 'AF4', 'AFz']</p>
-<p>The resulting embeddings are more rounded, particularly in the center. Suggests a more balanced distribution of neural variability across dimensions</p>
-<h3 id="frontotemporal-channels">Frontotemporal Channels<a class="headerlink" href="#frontotemporal-channels" title="Permanent link">&para;</a></h3>
-<p>Frontal channels + T7, T8</p>
-<p>Embeddings become more elongated and thinner, with reduced spread. This suggests that variability is dominated by a single, strong latent factor—likely tied to external sensory-emotional input. </p>
-<h3 id="frontal-parietal-channels">Frontal-Parietal Channels<a class="headerlink" href="#frontal-parietal-channels" title="Permanent link">&para;</a></h3>
-<p>Subset: ['P3', 'P4', 'Pz']</p>
-<p>The resulting embeddings are distinctly round and evenly spread. </p>
 <h1 id="assumption-emotion-dominates">Assumption: emotion dominates<a class="headerlink" href="#assumption-emotion-dominates" title="Permanent link">&para;</a></h1>
-<p>Participants watch a sequence of videos, each designed to elicit different emotions (e.g., joy, sadness, fear, calm).</p>
+<p>Participants watch a sequence of videos, each designed to elicit different emotions.</p>
 <h2 id="expectation">Expectation<a class="headerlink" href="#expectation" title="Permanent link">&para;</a></h2>
 <p>What we expected: 
 - Distinct clusters = emotionally distincs states
@@ -1767,16 +1454,12 @@
 - Smooth Trajectories = emotional transitions
     - embeddings form curved lines with temporal color gradient that form loops. Emotional stated evolve gradually and do not switch abrubtly. mixing and transitional states. continuous emotion space (e.g valence-arrousal)</p>
 <h2 id="results">Results<a class="headerlink" href="#results" title="Permanent link">&para;</a></h2>
-<p>What we got: Elongates shapes 
-- the emebdding is treched along one direction
-    - one primary emotional dimension dimunates (e.g either arousal or valence). brain's response scales along a principal dimension (e.g pleasantlness)</p>
-<p>What we got: Color Gradient
-- all videos explore the full space. points are scattered across the whole space
-    - Each video causes movement through both high and low arousal states and
-    - both positive and negative valence states.</p>
-<h2 id="alternatives">Alternatives<a class="headerlink" href="#alternatives" title="Permanent link">&para;</a></h2>
-<p>Parietal channels, associated with attention and sensory integration, produced the roundest embeddings. This implies that fluctuations in attentional focus or sensory processing, which may vary within and across videos, contribute strongly to neural variability.</p>
-<p>Frontal and frontotemporal channels yielded elongated embeddings, which could reflect dominant latent factors related to task engagement, decision-making, or motor preparation rather than pure emotion.</p>
+<p>What we got: </p>
+<h2 id="control-colouring-with-valence-arrousal-scores">Control: Colouring with Valence Arrousal scores<a class="headerlink" href="#control-colouring-with-valence-arrousal-scores" title="Permanent link">&para;</a></h2>
+<ul>
+<li>hue = different affective states</li>
+<li>saturation = intensity</li>
+</ul>
 
 
 

@@ -2,162 +2,110 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://your-username.github.io/multi-session-eeg-cebra/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
          <loc>https://your-username.github.io/multi-session-eeg-cebra/findings/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
          <loc>https://your-username.github.io/multi-session-eeg-cebra/appendices/bibliography/</loc>
-         <lastmod>2025-07-22</lastmod>
-    </url>
-    <url>
-         <loc>https://your-username.github.io/multi-session-eeg-cebra/architecture/components/</loc>
-         <lastmod>2025-07-22</lastmod>
-    </url>
-    <url>
-         <loc>https://your-username.github.io/multi-session-eeg-cebra/architecture/data-flow/</loc>
-         <lastmod>2025-07-22</lastmod>
-    </url>
-    <url>
-         <loc>https://your-username.github.io/multi-session-eeg-cebra/architecture/model-config/</loc>
-         <lastmod>2025-07-22</lastmod>
-    </url>
-    <url>
-         <loc>https://your-username.github.io/multi-session-eeg-cebra/architecture/overview/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
          <loc>https://your-username.github.io/multi-session-eeg-cebra/components/dataset-collection/</loc>
-         <lastmod>2025-07-22</lastmod>
-    </url>
-    <url>
-         <loc>https://your-username.github.io/multi-session-eeg-cebra/components/multi-session-loader/</loc>
-         <lastmod>2025-07-22</lastmod>
-    </url>
-    <url>
-         <loc>https://your-username.github.io/multi-session-eeg-cebra/components/multi-session-solver/</loc>
-         <lastmod>2025-07-22</lastmod>
-    </url>
-    <url>
-         <loc>https://your-username.github.io/multi-session-eeg-cebra/components/offset-model/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
          <loc>https://your-username.github.io/multi-session-eeg-cebra/components/tensor-dataset/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
-         <loc>https://your-username.github.io/multi-session-eeg-cebra/dataset/eeg-overview/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <loc>https://your-username.github.io/multi-session-eeg-cebra/dataset/data/</loc>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
          <loc>https://your-username.github.io/multi-session-eeg-cebra/dataset/multi-subject-design/</loc>
-         <lastmod>2025-07-22</lastmod>
-    </url>
-    <url>
-         <loc>https://your-username.github.io/multi-session-eeg-cebra/implementation/batch-processing/</loc>
-         <lastmod>2025-07-22</lastmod>
-    </url>
-    <url>
-         <loc>https://your-username.github.io/multi-session-eeg-cebra/implementation/optimization/</loc>
-         <lastmod>2025-07-22</lastmod>
-    </url>
-    <url>
-         <loc>https://your-username.github.io/multi-session-eeg-cebra/implementation/training-strategy/</loc>
-         <lastmod>2025-07-22</lastmod>
-    </url>
-    <url>
-         <loc>https://your-username.github.io/multi-session-eeg-cebra/implementation/validation/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
          <loc>https://your-username.github.io/multi-session-eeg-cebra/interpretation/cognitive-correlates/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
          <loc>https://your-username.github.io/multi-session-eeg-cebra/interpretation/individual-differences/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
          <loc>https://your-username.github.io/multi-session-eeg-cebra/interpretation/neural-mechanisms/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
          <loc>https://your-username.github.io/multi-session-eeg-cebra/interpretation/task-dynamics/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
-         <loc>https://your-username.github.io/multi-session-eeg-cebra/methodology/assumptions/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <loc>https://your-username.github.io/multi-session-eeg-cebra/methods/Phase_1/</loc>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
-         <loc>https://your-username.github.io/multi-session-eeg-cebra/methodology/design-choices/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <loc>https://your-username.github.io/multi-session-eeg-cebra/methods/Phase_2/</loc>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://your-username.github.io/multi-session-eeg-cebra/methods/overview/</loc>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
          <loc>https://your-username.github.io/multi-session-eeg-cebra/reproducibility/data-prep/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
          <loc>https://your-username.github.io/multi-session-eeg-cebra/reproducibility/environment/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
          <loc>https://your-username.github.io/multi-session-eeg-cebra/reproducibility/execution/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
          <loc>https://your-username.github.io/multi-session-eeg-cebra/reproducibility/parameters/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
          <loc>https://your-username.github.io/multi-session-eeg-cebra/results/cross-subject/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <lastmod>2025-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://your-username.github.io/multi-session-eeg-cebra/results/exploration/</loc>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
          <loc>https://your-username.github.io/multi-session-eeg-cebra/results/other-subsets/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
          <loc>https://your-username.github.io/multi-session-eeg-cebra/results/shared-states/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
          <loc>https://your-username.github.io/multi-session-eeg-cebra/results/state-transitions/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
          <loc>https://your-username.github.io/multi-session-eeg-cebra/results/temporal-patterns/</loc>
-         <lastmod>2025-07-22</lastmod>
-    </url>
-    <url>
-         <loc>https://your-username.github.io/multi-session-eeg-cebra/technical/class-hierarchies/</loc>
-         <lastmod>2025-07-22</lastmod>
-    </url>
-    <url>
-         <loc>https://your-username.github.io/multi-session-eeg-cebra/technical/code-structure/</loc>
-         <lastmod>2025-07-22</lastmod>
-    </url>
-    <url>
-         <loc>https://your-username.github.io/multi-session-eeg-cebra/technical/configuration/</loc>
-         <lastmod>2025-07-22</lastmod>
-    </url>
-    <url>
-         <loc>https://your-username.github.io/multi-session-eeg-cebra/technical/data-types/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
          <loc>https://your-username.github.io/multi-session-eeg-cebra/theory/cebra-introduction/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
-         <loc>https://your-username.github.io/multi-session-eeg-cebra/theory/dimensionality-reduction/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <loc>https://your-username.github.io/multi-session-eeg-cebra/theory/eeg_data/</loc>
+         <lastmod>2025-08-12</lastmod>
     </url>
     <url>
          <loc>https://your-username.github.io/multi-session-eeg-cebra/theory/neural-state-space/</loc>
-         <lastmod>2025-07-22</lastmod>
+         <lastmod>2025-08-12</lastmod>
     </url>
 </urlset>
